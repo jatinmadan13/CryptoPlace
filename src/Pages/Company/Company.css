@@ -1,0 +1,99 @@
+/* General styles */
+.company-container {
+    min-height: 100vh; /* Full height for the container */
+    background: linear-gradient(#0b004e, #1d152f, #002834); /* Match overall website gradient */
+    color: white; /* White text for readability on dark background */
+    padding: 20px;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .company-content {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1, h2 {
+    color: #ffd700; 
+  }
+  
+  p {
+    color: #e0e0e0; 
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: #ffd700; 
+  }
+  
+  .established, .motto, .brief, .future, .policy, .more-info {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Button and Links styling */
+  a {
+    color: #ffd700; /* Gold color for links */
+  }
+  
+  button {
+    background-color: #ffd700; /* Gold button */
+    color: #0b004e; /* Dark blue text inside the button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e6c200; /* Slightly darker gold on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .company-container {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .company-container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .company-container {
+      padding: 5px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  
